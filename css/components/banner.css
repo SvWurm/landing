@@ -1,0 +1,66 @@
+.banner {
+  height: 100%;
+  padding: 200px;
+  background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(https://images.unsplash.com/photo-1483389127117-b6a2102724ae?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1934&q=80);
+  background-size: cover;
+  background-position: center;
+  color: #FFF;
+  text-shadow: -1px -1px 1px rgba(255,255,255,.1), 1px 1px 1px rgba(0,0,0,.5), -40px 2px 2px rgba(206,89,55,0);
+}
+
+.container {
+  text-align: center;
+  margin: auto;
+  width: 800px;
+
+}
+
+.module {
+  display: flex;
+  justify-content: center;
+}
+
+.module-title {
+  text-align: center;
+}
+
+
+.card {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 200px;
+  margin: 25px;
+  padding: 10px 25px;
+  box-shadow: 0 0 5px rgb(230,230,230);
+}
+
+.card img {
+  padding: 5px;
+  height: 150px;
+  width: 150px;
+}
+.card h3 {
+  margin: 0;
+}
+
+.card p {
+  text-align: center;
+}
+
+
+.btn-apply {
+  margin: 10px 0;
+  display: inline-block;
+  color: #FFF;
+  border-radius: 50px;
+  background-color: #6259e6;
+  padding: 16px 36px;
+  text-decoration: none;
+  text-shadow: none;
+}
+
+.icon-social {
+  display: flex;
+  justify-content: center;
+}
